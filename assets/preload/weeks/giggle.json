@@ -1,0 +1,31 @@
+{
+	"songs": [
+		[
+			"Giggle",
+			"mexe",
+			[
+				185,
+				210,
+				141
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"difficulties": "Normal",	
+	"weekBackground": "tank",
+	"weekCharacters": [
+		"tankman",
+		"bf",
+		"gf"
+	],
+	"storyName": "Tankman",
+	"weekName": "Week 7",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "week6",
+	"startUnlocked": true
+}
