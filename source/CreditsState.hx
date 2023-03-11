@@ -1,3 +1,4 @@
+
 package;
 
 #if desktop
@@ -24,6 +25,7 @@ using StringTools;
 class CreditsState extends MusicBeatState
 {
 	var curSelected:Int = -1;
+	var clicks:Int = 0;
 
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private var iconArray:Array<AttachedSprite> = [];
@@ -80,7 +82,11 @@ class CreditsState extends MusicBeatState
 		}
 		#end
 
-		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color 
+		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Monika.Exe Outdated Port Apk'],
+			['LeproncioYt', 'momichi', 'Putos negros', 'https://youtube.com/@LEPRONCIOYT', 'FFFFFF'],
+			['Monika.Exe Outdated Port Mod Folder'],
+			['WinterND', 'WinterND', 'Port PE', 'https://youtube.com/@GifTrifFNF2', 'FFFFFF'],
 			['Android Port'],
 			['idklool', 'nothing', 'Hi I ported this again', 'https://youtube.com/@BoyfriendFNF', 'FFFFFF'],
 			[''],
@@ -213,7 +219,22 @@ class CreditsState extends MusicBeatState
 			}
 
 			if(controls.ACCEPT && (creditsStuff[curSelected][3] == null || creditsStuff[curSelected][3].length > 4)) {
+			  if (curSelected == 1) {
+			    clicks += 1;
+			    if (clicks == 6) {
+			      CoolUtil.browserLoad('https://youtube.com/@idklool12'); // hi
+			    } else {
+			      CoolUtil.browserLoad(creditsStuff[curSelected][3]);
+			    }
+			  }
+			  
+			  if (clicks >= 6) {
+			    clicks == 0;
+			  }
+			  
+			  if (curSelected != 1) {
 				CoolUtil.browserLoad(creditsStuff[curSelected][3]);
+			  }
 			}
 			if (controls.BACK)
 			{
