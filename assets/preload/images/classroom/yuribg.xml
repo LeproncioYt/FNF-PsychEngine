@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="yuribg.png">
+<SubTexture name="BGYuriANIM instance 00000" x="0" y="0" width="311" height="361" frameX="-601" frameY="-354" frameWidth="909" frameHeight="711" />
+<SubTexture name="BGYuriANIM instance 00001" x="0" y="0" width="311" height="361" frameX="-601" frameY="-354" frameWidth="909" frameHeight="711" />
+<SubTexture name="BGYuriANIM instance 00002" x="311" y="0" width="313" height="358" frameX="-600" frameY="-357" frameWidth="909" frameHeight="711" />
+<SubTexture name="BGYuriANIM instance 00003" x="624" y="0" width="313" height="358" frameX="-600" frameY="-357" frameWidth="909" frameHeight="711" />
+<SubTexture name="BGYuriANIM instance 00004" x="0" y="361" width="313" height="358" frameX="-600" frameY="-357" frameWidth="909" frameHeight="711" />
+<SubTexture name="BGYuriANIM instance 00005" x="0" y="361" width="313" height="358" frameX="-600" frameY="-357" frameWidth="909" frameHeight="711" />
+<SubTexture name="BGYuriANIM instance 00006" x="313" y="361" width="305" height="365" frameX="-605" frameY="-350" frameWidth="909" frameHeight="711" />
+<SubTexture name="BGYuriANIM instance 00007" x="313" y="361" width="305" height="365" frameX="-605" frameY="-350" frameWidth="909" frameHeight="711" />
+<SubTexture name="BGYuriANIM instance 00008" x="619" y="361" width="301" height="368" frameX="-609" frameY="-347" frameWidth="909" frameHeight="711" />
+<SubTexture name="BGYuriANIM instance 00009" x="619" y="361" width="301" height="368" frameX="-609" frameY="-347" frameWidth="909" frameHeight="711" />
+<SubTexture name="BGYuriANIM instance 00010" x="0" y="729" width="301" height="368" frameX="-609" frameY="-347" frameWidth="909" frameHeight="711" />
+<SubTexture name="BGYuriANIM instance 00011" x="0" y="729" width="301" height="368" frameX="-609" frameY="-347" frameWidth="909" frameHeight="711" />
+<SubTexture name="BGYuriANIM instance 00012" x="301" y="729" width="301" height="368" frameX="-609" frameY="-347" frameWidth="909" frameHeight="711" />
+<SubTexture name="BGYuriANIM instance 00013" x="301" y="729" width="301" height="368" frameX="-609" frameY="-347" frameWidth="909" frameHeight="711" />
+</TextureAtlas>
